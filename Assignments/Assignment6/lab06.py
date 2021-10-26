@@ -70,9 +70,9 @@ def main():
         Print_menu()
         selection = input('Enter your selection=> ')
         if selection == '1':
-            print('Encrypted: ', Encrypt())
+            print('Encrypted:', Encrypt())
         if selection == '2':
-            print('Decrypted: ', Decrypt())
+            print('Decrypted:', Decrypt())
 
       
       
