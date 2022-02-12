@@ -64,7 +64,7 @@ while replay == 'Y':
             if (answer % 5) == remainder_5:
                 if (answer % 7) == remainder_7:
                     print('You number was', answer)
-                    print('Amazing is that?\n')
+                    print('How amazing is that?\n')
     #This is the loop where the user can choose to play again or not
     replay = input('Do you want to play again? Y to continue, N to quit  ==>')  
     while (replay != 'Y'):
